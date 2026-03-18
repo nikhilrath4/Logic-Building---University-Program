@@ -1,12 +1,11 @@
-#Problem 20: Profit or Loss Calculator
+#Problem 01: Positive and Negative
 
-Cost_price = float(input("Enter the cost price: "))
-Selling_Price = float(input("Enter the selling price: "))
+number = int(input("Enter a number: "))
 
-calculate = Selling_Price - Cost_price
-if calculate > 0:
-    print("Profit of", calculate, "rupees")
-elif calculate < 0:
-    print("Loss of", abs(calculate), "rupees")
+if number > 0:
+    print(number, "is a positive number.")
+elif number < 0:
+    print(number, "is a negative number.")
 else:
-    print("There is no profit or loss.")
+    print("Number is zero")
+    
